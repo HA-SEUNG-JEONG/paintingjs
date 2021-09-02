@@ -1,1 +1,1 @@
-# paintingjs
+# Painting
