@@ -10,8 +10,10 @@ const CANVAS_SIZE=700;
 canvas.width=CANVAS_SIZE;
 canvas.height=CANVAS_SIZE;
 
-ctx.strokeStyle="#2c2c2c"; /*색상이나 스타일을 라인에 추가*/
-ctx.fillStyle=""
+ctx.fillStyle="white";
+ctx.fillRect(0,0,CANVAS_SIZE,CANVAS_SIZE);
+ctx.strokeStyle=INITIAL_COLOR; /*색상이나 스타일을 라인에 추가*/
+ctx.fillStyle=INITIAL_COLOR;
 ctx.lineWidth=2.5;
 
 
