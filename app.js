@@ -4,7 +4,7 @@ const ctx=canvas.getContext("2d");
 canvas.width=700;
 canvas.height=700;
 
-ctx.strokeStyle="#2c2c2c";
+ctx.strokeStyle="#2c2c2c"; /*색상이나 스타일을 라인에 추가*/
 ctx.lineWidth=2.5;
 
 let painting=false;
